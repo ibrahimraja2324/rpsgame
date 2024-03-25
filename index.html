@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
-    
+    <div id="rpsGame">
+        <!-- create 3 buttons, (RPS). add event listeners to the buttons parent and loop through each event 
+        and trigger a playround on each event. -->
+        <button class="rock">
+            rock
+        </button>
+        <button class="paper">
+            paper
+        </button>
+        <button class="scissors">
+            scissors
+        </button>
+    </div>
+    <div id="rpsResults">
+        <h2 id="curResult"></h2>
+        <h2 id="totResult"></h2>
+        <h2 id="finalResult"></h2>
+        <h3 id="finalScore"></h3>
+    </div>
 </body>
 </html>
